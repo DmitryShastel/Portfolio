@@ -1,13 +1,13 @@
-.mainSkills {
+.works {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #cd3a0d;
+    height: 90vh;
+    background-color: antiquewhite;
     opacity: 60%;
 }
 
-.skills{
+.myWorks{
     height: 380px;
     width: 80%;
 }
@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 25%;
+    width: 45%;
     position: relative;
     background-color: white;
 }
@@ -47,17 +47,23 @@
     background-color: #f1d206;
 }
 
-.title {
-    margin-top: 30%;
+.button {
+    margin-top: 25%;
 }
 
 .buttom {
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 0;
-    height: 30%;
+    height: 20vh;
     width: 100%;
-    text-align: center;
     background-color: #0d84be;
+}
+
+.discription {
+    height: 80%;
+    width: 80%;
 }
 
 

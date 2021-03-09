@@ -4,11 +4,13 @@ import style from './skills.module.css'
 
 export let Skills = () => {
     return (
-        <div className ={style.skills}>
-            <div className={style.container}>
-                <div className={style.header}>My skills</div>
+        <div className = {style.mainSkills}>
 
-                <div className={style.content}>
+            <div className={style.skills}>
+                <div className = {style.header}>My skills</div>
+            <div className = {style.container}>
+
+                <div className = {style.content}>
 
                     <div className = {style.first}>
                         <div className = {style.top}></div>
@@ -31,6 +33,7 @@ export let Skills = () => {
                     </div>
 
                 </div>
+            </div>
             </div>
 
         </div>
