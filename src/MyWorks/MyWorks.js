@@ -2,7 +2,7 @@ import React from 'react'
 import style from './works.module.css'
 
 
-export let Works = () => {
+export let MyWorks = () => {
     return (
         <div className = {style.works}>
 
