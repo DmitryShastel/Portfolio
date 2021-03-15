@@ -1,41 +1,20 @@
 import React from 'react'
-import style from './skills.module.css'
+import style from './Skills.module.css'
+import styleContainer from '../Common/styles/container.module.css'
+import {Skill} from "../Skills/skill/Skill";
 
 
 export let Skills = () => {
     return (
-        <div className = {style.mainSkills}>
-
-            <div className={style.skills}>
-                <div className = {style.header}>My skills</div>
-            <div className = {style.container}>
-
-                <div className = {style.content}>
-
-                    <div className = {style.first}>
-                        <div className = {style.top}></div>
-                        <div className = {style.title}>React</div>
-                        <div className = {style.buttom}>Detailed description of skills</div>
-                    </div>
-
-
-                    <div className = {style.first}>
-                        <div className = {style.top}></div>
-                        <div className = {style.title}>JS</div>
-                        <div className = {style.buttom}>Detailed description of skills</div>
-                    </div>
-
-
-                    <div className = {style.first}>
-                        <div className = {style.top}></div>
-                        <div className = {style.title}>HTML/CSS</div>
-                        <div className = {style.buttom}>Detailed description of skills</div>
-                    </div>
-
+        <div className = {style.skillsBlock}>
+            <div className = {`${styleContainer.container} ${style.skillsContainer}`}>
+                <h2 className = {style.title}>Skills</h2>
+                <div className = {style.skills}>
+                    <Skill title={"React"} description={"The internet was set on fire (pun intended).."}/>
+                    <Skill title={"JS"} description={"The internet was set on fire (pun intended).."}/>
+                    <Skill title={"HTML/CSS"} description={"The internet was set on fire (pun intended).."}/>
                 </div>
             </div>
-            </div>
-
         </div>
     );
 }

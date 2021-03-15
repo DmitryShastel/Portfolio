@@ -4,14 +4,6 @@
     opacity: 50%;
 }
 
-.container {
-    margin: 0 auto;
-    height: 100%;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .text {
     width: 300px;
@@ -23,3 +15,4 @@
     height: 400px;
     background-color: grey;
 }
+

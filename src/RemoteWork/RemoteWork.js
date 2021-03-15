@@ -7,7 +7,9 @@ export let RemoteWork = () => {
         <div className = {style.remWork}>
             <div className={style.container}>
                 <div className={style.top}>Considering options for remote work</div>
-                <div className={style.button}> <button className={style.button2}>Hire me</button></div>
+                <div className={style.button}>
+                    <button className={style.button2}>Hire me</button>
+                </div>
             </div>
         </div>
     );

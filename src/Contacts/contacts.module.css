@@ -1,0 +1,45 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-color: deeppink;
+    opacity: 60%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    height: 80%;
+    width: 80%;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.contactLinks {
+    height: 30px;
+    width: 65px;
+    background-color: grey;
+}
+
+.menu {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.button {
+    position: absolute;
+    bottom: 0;
+}
