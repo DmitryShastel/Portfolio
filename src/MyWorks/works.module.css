@@ -1,72 +1,29 @@
+.worksBlock {
+    height: 100vh;
+    background-color: red;
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: aquamarine;
+}
+
 .works {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+    border: 1px solid;
     width: 100%;
-    background-color: antiquewhite;
-    opacity: 60%;
-}
-
-.myWorks{
-    height: 380px;
-    width: 80%;
-    flex-wrap: wrap;
-}
-
-.header {
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: cyan;
-}
-
-.container {
-    margin: 0 auto;
-    background-color: lime;
-}
-
-.content {
     display: flex;
     justify-content: space-between;
-    height: 300px;
     flex-wrap: wrap;
 }
 
-.first {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 45%;
-    position: relative;
-    background-color: white;
+@media only screen and (min-device-width : 320px)
+and (max-device-width : 900px) {
+    .works {
+        display: flex;
+        justify-content: center;
+    }
 }
-
-.top {
-    height: 70px;
-    width: 70px;
-    background-color: #f1d206;
-}
-
-.button {
-    margin-top: 25%;
-}
-
-.buttom {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    height: 20vh;
-    width: 100%;
-    background-color: #0d84be;
-}
-
-.discription {
-    height: 80%;
-    width: 80%;
-}
-
-

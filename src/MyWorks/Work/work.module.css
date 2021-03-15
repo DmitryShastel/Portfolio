@@ -1,4 +1,4 @@
-.skill {
+.work {
     width: 250px;
     background-color: #e9dfdf;
     display: flex;
@@ -13,9 +13,14 @@
     background-color: grey;
 }
 
+.button {
+    padding-top: 15px;
+}
+
+
 @media only screen and (min-device-width : 320px)
 and (max-device-width : 900px) {
-    .skill {
+    .work {
         margin-bottom: 20px;
         min-width: 100%;
     }
